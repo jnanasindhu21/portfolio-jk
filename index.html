@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jnana Sindhu K S — Software Engineer</title>
+<meta name="description" content="Portfolio of Jnana Sindhu K S, Associate Software Engineer at Maersk — Go microservices, React interfaces, and observability.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-mark">JS<span class="dot">.</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#work">Work</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">Associate Software Engineer at Maersk</p>
+        <h1 class="hero-title">Jnana Sindhu K S</h1>
+        <p class="hero-sub">I build production-grade enterprise software across frontend and backend systems, with a focus on scalable architecture, reliable delivery, and operational excellence.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="https://drive.google.com/file/d/1FOh6BpUb5tgvYChmushxqpr4PfN79Q59/view?usp=sharing" target="_blank" rel="noopener">View résumé</a>
+          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+        </div>
+        <div class="hero-meta">
+          <span>Bengaluru, India</span>
+          <span class="sep">·</span>
+          <span>BE, Computer Science — RNSIT '24</span>
+        </div>
+      </div>
+
+      <div class="hero-panel" aria-hidden="false" role="img" aria-label="Simulated request trace terminal">
+        <div class="panel-chrome">
+          <span class="chrome-dot" style="--c:#ff5f56"></span>
+          <span class="chrome-dot" style="--c:#ffbd2e"></span>
+          <span class="chrome-dot" style="--c:#27c93f"></span>
+          <span class="chrome-title">trace.log</span>
+        </div>
+        <pre class="panel-body" id="terminal"></pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="section-inner about-grid">
+      <h2 class="section-heading">Professional Summary</h2>
+      <div class="about-text">
+        <p>I am an Associate Software Engineer at Maersk and a 2024 Computer Science graduate from RNS Institute of Technology.</p>
+        <p>I joined Maersk as a Software Engineer Intern in June 2023 and transitioned to a full-time role in July 2024. I have been working on an enterprise document management platform, delivering functionality across both frontend and backend services.</p>
+        <p>My core stack includes React.js, Next.js, and TypeScript on the frontend, and Go microservices with REST APIs on the backend. I also work with Azure, Docker, and Kubernetes, and improve platform observability through OpenTelemetry for metrics, logging, and distributed tracing. I collaborate with cross-functional teams throughout feature delivery, testing, code reviews, deployments, and production support.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="work" id="work">
+    <div class="section-inner">
+      <h2 class="section-heading">Experience</h2>
+      <ol class="timeline">
+        <li class="timeline-item">
+          <div class="timeline-when">
+            <span class="timeline-dates">Jul 2024 — Present</span>
+            <span class="timeline-status">current</span>
+          </div>
+          <div class="timeline-what">
+            <h3>Associate Software Engineer</h3>
+            <p class="timeline-org">Maersk, Bengaluru</p>
+            <ul>
+              <li>Develop and enhance enterprise applications using React.js, Next.js, TypeScript, and Go.</li>
+              <li>Design and deliver production features in collaboration with product, engineering, and quality teams.</li>
+              <li>Contribute across testing, code reviews, deployment workflows, and post-release production support.</li>
+            </ul>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-when">
+            <span class="timeline-dates">Jun 2023 — Jun 2024</span>
+          </div>
+          <div class="timeline-what">
+            <h3>Software Engineer Intern</h3>
+            <p class="timeline-org">Maersk, Bengaluru</p>
+            <ul>
+              <li>Built frontend features and reusable UI components using React.js and TypeScript.</li>
+              <li>Supported feature implementation, REST API integration, and issue resolution in production workflows.</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <div class="section-inner">
+      <h2 class="section-heading">Projects</h2>
+
+      <article class="project">
+        <div class="project-frame">
+          <!-- <div class="project-frame-chrome">
+            <span class="chrome-dot" style="--c:#ff5f56"></span>
+            <span class="chrome-dot" style="--c:#ffbd2e"></span>
+            <span class="chrome-dot" style="--c:#27c93f"></span>
+          </div> -->
+          <img src="dms.png" alt="Document Management System interface" class="project-img" onerror="this.closest('.project-frame').classList.add('img-missing')">
+          <div class="img-fallback">drop <b>DMS.png</b> into /imagges</div>
+        </div>
+        <div class="project-copy">
+          <h3>Enterprise Document Management</h3>
+          <p>Built and maintained features for a platform used to store, retrieve, and track enterprise documents at scale. Delivered frontend modules using React.js and TypeScript, and contributed to backend services in Go.</p>
+          <p>Implemented observability with OpenTelemetry for metrics, logs, and distributed traces, integrated with Prometheus, Loki, Tempo, and Grafana to strengthen production visibility and troubleshooting.</p>
+          <ul class="tag-list">
+            <li>React.js</li><li>TypeScript</li><li>Go</li><li>REST APIs</li><li>OpenTelemetry</li><li>Grafana</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="project project-reverse">
+        <div class="project-frame">
+          
+          <img src="tms.png" alt="Task Management System interface" class="project-img" onerror="this.closest('.project-frame').classList.add('img-missing')">
+          <div class="img-fallback">drop <b>TMS.png</b> into /imagges</div>
+        </div>
+        <div class="project-copy">
+          <h3>Task Management System</h3>
+          <p>Developed a responsive task management application with Next.js, TypeScript, and Styled Components, including reusable UI components and scalable frontend architecture.</p>
+          <p>Integrated REST APIs and collaborated across the delivery lifecycle, from implementation and testing to release readiness.</p>
+          <ul class="tag-list">
+            <li>Next.js</li><li>TypeScript</li><li>Styled Components</li><li>REST APIs</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+    <div class="section-inner">
+      <h2 class="section-heading">Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h4>Frontend</h4>
+          <p>JavaScript (ES6+), React.js, TypeScript, Next.js, Bootstrap, Material UI, React Bootstrap, HTML5, CSS3</p>
+        </div>
+        <div class="skill-group">
+          <h4>Backend</h4>
+          <p>Go (Golang), REST API development, Microservices</p>
+        </div>
+        <div class="skill-group">
+          <h4>Database</h4>
+          <p>MongoDB (Azure Cosmos DB)</p>
+        </div>
+        <div class="skill-group">
+          <h4>APIs &amp; Security</h4>
+          <p>JWT Authentication, Azure AD (MSAL), OpenFGA</p>
+        </div>
+        <div class="skill-group">
+          <h4>DevOps &amp; Tools</h4>
+          <p>Git, GitHub Actions, CI/CD, Docker</p>
+        </div>
+        <div class="skill-group">
+          <h4>Observability</h4>
+          <p>OpenTelemetry, Prometheus, Grafana, Loki, Tempo</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTS + EDUCATION -->
+  <section class="creds" id="creds">
+    <div class="section-inner creds-grid">
+      <div>
+        <h2 class="section-heading">Certifications</h2>
+        <ul class="creds-list">
+          <li>Certified Web Developer — HTML, CSS, JavaScript &amp; React.js, Udemy</li>
+          <li>Data Structures</li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="section-heading">Education</h2>
+        <ul class="creds-list">
+          <li>
+            <strong>BE, Computer Science &amp; Engineering</strong><br>
+            RNS Institute of Technology, Bengaluru — 2020 – 2024
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- CONTACT / FOOTER -->
+<footer class="contact" id="contact">
+  <div class="section-inner contact-inner">
+    <h2 class="contact-title">Open to software engineering opportunities.</h2>
+    <div class="contact-links">
+      <a href="mailto:jnanasindhu2122@gmail.com">jnanasindhu2122@gmail.com</a>
+      <a href="tel:+919611838404">+91 96118 38404</a>
+      <a href="https://www.linkedin.com/in/jnana-sindhu-981325213/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/jnanasindhu21" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <p class="footer-note">Designed &amp; built by Jnana Sindhu K S · <span id="year"></span></p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
